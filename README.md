@@ -8,3 +8,10 @@ Gherkin
 
 `到calculator目录下
     run 'cucumber'
+
+`cucumber约定的目录结构
+    features/
+      adding.feature
+      ...
+      step_definitions/
+        step_definitions.rb
