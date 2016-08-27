@@ -15,3 +15,8 @@ Gherkin
       ...
       step_definitions/
         step_definitions.rb
+
+` (?:visit | go to )
+    非捕获类型，不会将值作为参数传递
+
+`cucumbers?  单复数
