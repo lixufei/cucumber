@@ -4,6 +4,7 @@ Feature: division
     When the calculator is run
     Then the output should be "1"
 
+  @division @testing
   Scenario Outline: Divide two numbers
     Given the input "<input>"
     When the calculator is run
