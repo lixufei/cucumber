@@ -1,5 +1,6 @@
 Feature: Request cash from ATM
   Scenario: Successfully withdraw from an account in credit
-    Given I have deposited $100 in my account
+    Given my account has been credited $100
     When I request $20
     Then $20 should be dispensed
+    And the balance of my account should be $80
