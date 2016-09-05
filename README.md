@@ -44,3 +44,14 @@ Gherkin
 `变形器要写到最前面，因为后面的步骤定义中要用到
 
 `在World中存储状态，自定义辅助方法
+
+`钩子：
+    Before('@admin') do   #带标签的钩子
+     puts 'Go!'
+    end
+
+    After do
+         puts 'Go!'
+    end
+
+`launchy 是个好的非常有用的调试工具
