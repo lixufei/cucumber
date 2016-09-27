@@ -27,3 +27,8 @@ post '/withdraw' do
   teller.withdraw_from(settings.account, params[:amount].to_i)
   # fail "I dont't know what it is."
 end
+
+get '/addition' do
+  p 'addition is applied...'
+  send_file 'public/test.html'
+end
